@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Christian | Biglietto da visita</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #eee;
+      line-height: 1.6;
+    }
+    header {
+      background: url('https://picsum.photos/1200/800?grayscale') center/cover no-repeat;
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      color: white;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.3rem;
+      margin-top: 10px;
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 2rem;
+    }
+    .galleria {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+    }
+    .galleria img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.6);
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #222;
+      color: #aaa;
+    }
+    a {
+      color: #f25c05;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Christian</h1>
+    <p>Vigile del Fuoco | Fotografia | Progetti Digitali & IA</p>
+  </header>
+
+  <section id="chi-sono">
+    <h2>Chi sono</h2>
+    <p>Sono un Vigile del Fuoco e credo nel valore del servizio e della resilienza. Al di fuori del lavoro, la fotografia è il mio modo di osservare il mondo: dai paesaggi naturali ai piccoli dettagli quotidiani. Amo sperimentare anche nel digitale, creando progetti web e opere generate con l'intelligenza artificiale.</p>
+  </section>
+
+  <section id="fotografia">
+    <h2>Fotografia</h2>
+    <div class="galleria">
+      <img src="https://picsum.photos/400/300?random=1" alt="Scatto 1">
+      <img src="https://picsum.photos/400/300?random=2" alt="Scatto 2">
+      <img src="https://picsum.photos/400/300?random=3" alt="Scatto 3">
+    </div>
+    <p style="text-align:center; margin-top:15px;">Altri scatti su <a href="https://www.instagram.com/instapastori" target="_blank">Instagram</a></p>
+  </section>
+
+  <section id="progetti">
+    <h2>Progetti digitali</h2>
+    <ul>
+      <li><a href="https://ashtangabelluno.it" target="_blank">AshtangaBelluno.it</a> – un progetto dedicato allo yoga.</li>
+      <li><a href="https://creator.nightcafe.studio/" target="_blank">NightCafe</a> – esplorazioni artistiche con l'IA.</li>
+    </ul>
+  </section>
+
+  <section id="contatti">
+    <h2>Contatti</h2>
+    <p>Email: <a href="mailto:tuamail@example.com">tuamail@example.com</a></p>
+    <p><a href="https://www.linkedin.com" target="_blank">LinkedIn</a> | <a href="https://www.instagram.com/instapastori" target="_blank">Instagram</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Christian – Tutti i diritti riservati</p>
+  </footer>
+</body>
+</html>
